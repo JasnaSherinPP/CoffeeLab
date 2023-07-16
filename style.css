@@ -1,0 +1,398 @@
+* {
+    color: rgb(105, 24, 24);
+}
+
+.headingi {
+    text-align: center;
+    color: rgb(112, 33, 33);
+    font-family: 'Rye', cursive;
+    background-color: lightsalmon;
+    margin: 0;
+    top: 0;
+    border: 2px solid rgb(117, 30, 30);
+    position: sticky;
+
+}
+
+.fintro {
+    background-image: url(https://static.toiimg.com/photo/59806598.cms);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+}
+
+.intro {
+    border: 2px solid brown;
+    margin-top: 100px;
+    margin-left: 38%;
+    text-align: justify;
+    height: 230px;
+    width: 350px;
+    background-color: lightsalmon;
+    padding: 10px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+.heading2 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding-top: 30px;
+}
+
+i {
+
+    position: sticky;
+
+}
+
+.col1 {
+    border: 2px solid rgb(107, 14, 14);
+    border-radius: 20px 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+.types {
+    background-color: beige;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.types ul li h3 {
+    text-decoration: underline;
+}
+
+.heading3 {
+    text-align: center;
+    font-family: 'Rye', cursive;
+    border: 2px solid rgb(107, 14, 14);
+    background-color: lightsalmon;
+    color: rgb(112, 33, 33);
+}
+
+.brow {
+    display: flex;
+}
+
+.brand {
+    background-color: beige;
+    padding: 20px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 80px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.imagegallery {
+    background-color: beige;
+    height: 800px;
+    width: 100%;
+}
+
+.query {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+}
+
+.query h1 {
+    margin-left: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(107, 14, 14);
+    background-color: rgb(107, 14, 14);
+    width: 400px;
+    padding-top: 20px;
+    margin-left: 500px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+form:hover {
+    box-shadow: 10px 9px 10px sandybrown, 5px 9px 8px brown;
+    width: 600px;
+}
+
+.query h1 {
+    text-align: left;
+}
+
+.input {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.send {
+    border-radius: 20px;
+}
+
+.send:hover {
+    background-color: rgb(107, 14, 14);
+    color: beige;
+}
+
+footer {
+    background-color: beige;
+    border-bottom: 10px solid rgb(107, 14, 14);
+
+}
+
+footer li {
+    text-decoration: none;
+}
+
+.frow {
+    display: flex;
+    /* border-bottom: 10px solid brown; */
+}
+
+.fcol {
+    padding: 20px;
+}
+
+.p {
+    text-align: justify;
+}
+
+/*media query for mobile screen */
+
+@media (max-width:400px) {
+    * {
+        color: rgb(105, 24, 24);
+    }
+    
+    .headingi {
+        text-align: center;
+        color: rgb(112, 33, 33);
+        font-family: 'Rye', cursive;
+        background-color: lightsalmon;
+        margin: 0;
+        top: 0;
+        border: 2px solid rgb(117, 30, 30);
+        position: sticky;
+        font-size: 25px;
+        
+    
+    }
+    
+    .fintro {
+        background-image: url(https://static.toiimg.com/photo/59806598.cms);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    
+    }
+    
+    .intro {
+        border: 2px solid brown;
+        margin-top: 100px;
+        margin-left: 28%;
+        text-align: justify;
+        height: 130px;
+        width: 150px;
+        background-color: lightsalmon;
+        padding: 10px;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: 7px;
+    
+    }
+    
+    .heading2 {
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        padding-top: 30px;
+    }
+    
+    i {
+    
+        position: sticky;
+    
+    }
+    
+    .col1 {
+        border: 2px solid rgb(107, 14, 14);
+        border-radius: 20px 40px;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    .types {
+        background-color: beige;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    
+    .types ul li h3 {
+        text-decoration: underline;
+    }
+    
+    .heading3 {
+        text-align: center;
+        font-family: 'Rye', cursive;
+        border: 2px solid rgb(107, 14, 14);
+        background-color: lightsalmon;
+        color: rgb(112, 33, 33);
+    }
+    
+    .brow {
+        display: flex;
+    }
+    .bcol{
+        max-width: 200px;
+        height: 210px;
+        width: 200px;
+        font-size: 7px;
+        padding: 10px;
+        
+    }
+    .bcol img{
+        height:70px;
+        width: 100px;
+        padding-top: 50px;
+    }
+    
+    .brand {
+        background-color: beige;
+        padding: 20px;
+    }
+    
+    div.gallery {
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 30px;
+        margin-left: 80px;
+    }
+    
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    div.imagegallery {
+        background-color: beige;
+        height: 800px;
+        width: 100%;
+    }
+    
+    .query {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        background-color: beige;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 1px;
+        width: 400px;
+    }
+    
+    .query h1 {
+        margin-left: 1px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid rgb(107, 14, 14);
+        background-color: rgb(107, 14, 14);
+        width: 300px;
+        padding-top: 20px;
+        margin-left: 5px;
+        border-radius: 30px;
+        padding-bottom: 7px;
+    }
+    
+    form:hover {
+        box-shadow: 10px 9px 10px sandybrown, 5px 9px 8px brown;
+        width: 320px;
+    }
+    
+    .query h1 {
+        text-align: left;
+    }
+    
+    .input {
+        border-radius: 20px;
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .send {
+        border-radius: 20px;
+    }
+    
+    .send:hover {
+        background-color: rgb(107, 14, 14);
+        color: beige;
+    }
+    
+    footer {
+        background-color: beige;
+        border-bottom: 10px solid rgb(107, 14, 14);
+        /* width: 320px; */
+    
+    }
+    
+    footer li {
+        text-decoration: none;
+    }
+    
+    .frow {
+        display: flex;
+        /* border-bottom: 10px solid brown; */
+        width: 300px;
+    }
+    
+    .fcol {
+        padding: 20px;
+        width: 300px;
+        font-size: 10px;
+    }
+    
+    .p {
+        text-align: justify;
+        
+    }
+    
+    
+
+}
